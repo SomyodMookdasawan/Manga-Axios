@@ -1,17 +1,17 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <img alt="Vue logo" src="./assets/1.png" height="150px">
+    <manga />
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import manga from './components/manga.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    manga,
   }
 }
 </script>
@@ -24,5 +24,10 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+}
+body{
+  background-image: url(https://i.pinimg.com/originals/59/75/d3/5975d3eea360f80ad53514c258542547.jpg);
+  background-attachment: fixed;
+  background-size: 100%;
 }
 </style>
